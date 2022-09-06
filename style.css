@@ -1,0 +1,67 @@
+h1{
+  color: teal;
+}
+
+body {
+  background: blue;
+  text-align: center;
+}
+
+::selection {
+  color: firebrick;
+  background: olivedrab;
+}
+
+.get-shadow:hover {
+  text-shadow: 0 0 4px yellow, 0 0 7px lightcyan;
+}
+
+h3.get-shadow {
+  font-family: sans-serif;
+  transition-duration: 2s;
+}
+
+input.upg1, input.upg2, input.upg3, input.upg4, input.upg5 {
+  font: 700 20px sans-serif;
+  animation: anim1 4s infinite;
+}
+
+@keyframes anim1 {
+  0% {
+    background: lightsalmon;
+  }
+  50% {
+    background: darkkhaki;
+  }
+  100% {
+    background: mediumturquoise;
+  }
+}
+
+input {
+  caret-color: lightcyan;
+}
+
+body {
+  animation: background 60s infinite;
+}
+
+@keyframes background {
+  0% {
+    background: blue;
+  }
+  70% {
+    background: chocolate;
+  }
+  100% {
+    background: darkblue;
+  }
+}
+
+pre, a {
+  font: 500 17px sans-serif;
+}
+
+a {
+  font-weight: 400;
+}
